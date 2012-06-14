@@ -2,7 +2,7 @@
 #include <math.h>
 
 int main( void ) {
-	long int i = 2 * (long int) pow( 2, 24 ) + 3 * 256 + 2;
+	long int i = 2 * (long int) pow( 2, 24 ) + 3 * 256 + 3;
 	const char *p = (const char *) &i;
 
 	if( p[0] == 1 )
